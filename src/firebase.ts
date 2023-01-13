@@ -25,6 +25,7 @@ export const db = getDatabase(app);
 // Initialize Firebase Authentication and get a reference to the service
 export const auth = getAuth(app);
 
+// We can create a Login Screen so the user can input this information
 signInWithEmailAndPassword(auth, 'nitinhosilva1996@gmail.com', 'Tatu9012')
   .then((userCredential) => {
     // Signed in
